@@ -1,5 +1,6 @@
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
+import Image from "next/image";
 
 export default function Home(){
   return(
@@ -16,7 +17,7 @@ export default function Home(){
             </div> 
 
             <div className="imgContainer">
-            <img src="https://media.istockphoto.com/id/517373852/photo/homepage-domain-html-web-design-concept.jpg?s=612x612&w=0&k=20&c=aXCsN4Fvpqr4Ae4zFJQJDYNUaWMzvIk2mbwbm7yK8yA=" alt="welocome to homepage" className="bgPic"></img>
+            <Image src="https://media.istockphoto.com/id/517373852/photo/homepage-domain-html-web-design-concept.jpg?s=612x612&w=0&k=20&c=aXCsN4Fvpqr4Ae4zFJQJDYNUaWMzvIk2mbwbm7yK8yA=" alt="welocome to homepage" width={500} height={300} className="bgPic"/>
             </div> 
           </main>
           <Footer/>

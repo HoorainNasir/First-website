@@ -1,5 +1,6 @@
 import Footer from "@/components/footer";
-import Navbar from "@/components/navbar"
+import Navbar from "@/components/navbar";
+import Image from "next/image";
 
 export default function Contact(){
     return(
@@ -17,7 +18,7 @@ export default function Contact(){
                 </div>
 
                 <div className="imgContainer">
-                    <img src="https://transport.cambridgeshirepeterborough-ca.gov.uk/wp-content/uploads/2022/09/TW_Contact_Us.png" alt="contact us" className="bgPic"></img>
+                    <Image src="https://transport.cambridgeshirepeterborough-ca.gov.uk/wp-content/uploads/2022/09/TW_Contact_Us.png" alt="contact us" width={500} height={300} className="bgPic"/>
                 </div>
             </div>
             <footer className="foot">

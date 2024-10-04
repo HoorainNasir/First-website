@@ -1,5 +1,6 @@
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
+import Image from "next/image";
 
 export default function About(){
     return(
@@ -7,7 +8,7 @@ export default function About(){
             <Navbar/>
             <div className="content">
                 <div className="imgContainer">
-                    <img src="https://t3.ftcdn.net/jpg/07/06/10/62/360_F_706106273_azeLKRtE7CHga5JjHNfWAbgr4IkhEuwD.jpg" alt="profile picture" className="dp"></img>
+                    <Image src="https://t3.ftcdn.net/jpg/07/06/10/62/360_F_706106273_azeLKRtE7CHga5JjHNfWAbgr4IkhEuwD.jpg" alt="profile picture" width={500} height={300} className="dp"/>
                 </div>
                 <div className="textContainer">
                     <h1><strong>Hello, I'm Hoorain</strong></h1>
