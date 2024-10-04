@@ -2,26 +2,101 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.navbar{
+    background-color: thistle;
+    color: black;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.navbar-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.dp{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.imgContainer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgPic{
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.textContainer{
+    flex: 1;
+    padding: 20px;
+    align-items: center;
+}
+h1{
+    color: #125;
+    font-size: xx-large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    line-height: 1.5;
+    color: #115;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #248;
+    font-size: 1.2rem;
+}
+
+.foot p{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: thistle;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .content{
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+    }
+
+    .textContainer{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .bgPic{
+        width: 80%;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    h1{
+        font-size: x-large;
+    }
 }
