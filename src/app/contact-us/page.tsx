@@ -17,7 +17,7 @@ export default function Contact(){
                 </div>
 
                 <div className="imgContainer">
-                    <img src="https://transport.cambridgeshirepeterborough-ca.gov.uk/wp-content/uploads/2022/09/TW_Contact_Us.png" className="bgPic"></img>
+                    <img src="https://transport.cambridgeshirepeterborough-ca.gov.uk/wp-content/uploads/2022/09/TW_Contact_Us.png" alt="contact us" className="bgPic"></img>
                 </div>
             </div>
             <footer className="foot">

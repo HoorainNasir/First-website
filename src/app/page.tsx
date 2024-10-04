@@ -16,7 +16,7 @@ export default function Home(){
             </div> 
 
             <div className="imgContainer">
-            <img src="https://media.istockphoto.com/id/517373852/photo/homepage-domain-html-web-design-concept.jpg?s=612x612&w=0&k=20&c=aXCsN4Fvpqr4Ae4zFJQJDYNUaWMzvIk2mbwbm7yK8yA=" className="bgPic"></img>
+            <img src="https://media.istockphoto.com/id/517373852/photo/homepage-domain-html-web-design-concept.jpg?s=612x612&w=0&k=20&c=aXCsN4Fvpqr4Ae4zFJQJDYNUaWMzvIk2mbwbm7yK8yA=" alt="welocome to homepage" className="bgPic"></img>
             </div> 
           </main>
           <Footer/>
